@@ -1,13 +1,14 @@
 {
-  "main.css": "/brewerysearchuidemo/static/css/main.e45c57c3.chunk.css",
-  "main.js": "/brewerysearchuidemo/static/js/main.697ba5e7.chunk.js",
-  "main.js.map": "/brewerysearchuidemo/static/js/main.697ba5e7.chunk.js.map",
-  "static/js/1.4d4949a9.chunk.js": "/brewerysearchuidemo/static/js/1.4d4949a9.chunk.js",
-  "static/js/1.4d4949a9.chunk.js.map": "/brewerysearchuidemo/static/js/1.4d4949a9.chunk.js.map",
+  "main.css": "/brewerysearchuidemo/static/css/main.8a4dc3d3.chunk.css",
+  "main.js": "/brewerysearchuidemo/static/js/main.0e0a0925.chunk.js",
+  "main.js.map": "/brewerysearchuidemo/static/js/main.0e0a0925.chunk.js.map",
+  "static/js/1.5b265051.chunk.js": "/brewerysearchuidemo/static/js/1.5b265051.chunk.js",
+  "static/js/1.5b265051.chunk.js.map": "/brewerysearchuidemo/static/js/1.5b265051.chunk.js.map",
   "runtime~main.js": "/brewerysearchuidemo/static/js/runtime~main.a6610c50.js",
   "runtime~main.js.map": "/brewerysearchuidemo/static/js/runtime~main.a6610c50.js.map",
-  "static/css/main.e45c57c3.chunk.css.map": "/brewerysearchuidemo/static/css/main.e45c57c3.chunk.css.map",
+  "static/media/retrobeer.png": "/brewerysearchuidemo/static/media/retrobeer.cf172707.png",
+  "static/css/main.8a4dc3d3.chunk.css.map": "/brewerysearchuidemo/static/css/main.8a4dc3d3.chunk.css.map",
   "index.html": "/brewerysearchuidemo/index.html",
-  "precache-manifest.759ccd0d3f07c3470ce220e320df42a8.js": "/brewerysearchuidemo/precache-manifest.759ccd0d3f07c3470ce220e320df42a8.js",
+  "precache-manifest.ff3688ce1b18ef10b46e3136a309a862.js": "/brewerysearchuidemo/precache-manifest.ff3688ce1b18ef10b46e3136a309a862.js",
   "service-worker.js": "/brewerysearchuidemo/service-worker.js"
 }
