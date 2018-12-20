@@ -4,8 +4,8 @@ import './App.css';
 
 
 // const API_URL="http://localhost:8080/breweries",
-const API_URL = "https://murmuring-basin-65291.herokuapp.com/breweries?page=1&count=18";
-const API_SEARCH_URL = "https://murmuring-basin-65291.herokuapp.com/breweries/search?page=1&count=18&query=";
+const API_URL = "https://murmuring-basin-65291.herokuapp.com/breweries?page=1&count=15";
+const API_SEARCH_URL = "https://murmuring-basin-65291.herokuapp.com/breweries/search?page=1&count=15&query=";
 const DEFAULT_QUERY = "Phoenix";
 
 class App extends Component {
@@ -146,6 +146,7 @@ class Content extends Component {
               <tr>
                 <th>Name</th>
                 <th>Type</th>
+                <th>Street</th>
                 <th>City</th>
                 <th>State</th>
                 <th>Phone</th>
@@ -154,12 +155,13 @@ class Content extends Component {
             </thead>
             <tbody>
               {items.map(brewery => {
-                let { name, breweryType, city, state, phone, websiteUrl } = brewery;
+                let { name, breweryType,street, city, state, phone, websiteUrl } = brewery;
                 return (
 
                   <tr>
                     <td>{name}</td>
                     <td>{breweryType}</td>
+                    <td>{street}</td>
                     <td>{city}</td>
                     <td>{state}</td>
                     <td>{phone}</td>
@@ -192,8 +194,7 @@ class Footer extends Component {
         <div className="pure-menu pure-menu-horizontal">
           <ul>
             <li className="pure-menu-item"><a href="https://naveenhn.in/" className="pure-menu-link">About</a></li>
-            <li className="pure-menu-item"><a href="https://twitter.com/naveenhn/" className="pure-menu-link">Twitter</a></li>
-            <li className="pure-menu-item"><a href="https://github.com/naveenhn/" className="pure-menu-link">GitHub</a></li>
+            <li className="pure-menu-item"><a href="https://github.com/naveenhn/brewerysearchuidemo" className="pure-menu-link">GitHub</a></li>
             <li className="pure-menu-item"><a href="http://freedesignfile.com/" className="pure-menu-link"> Logo from freedesignfile</a></li>
           </ul>
         </div>
