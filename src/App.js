@@ -125,7 +125,7 @@ class Content extends Component {
     return (
       <div className="content pure-u-1 pure-u-md-3-4">
         <div class="content.subheader">
-          <h1>Next Beer!</h1>
+          <h4><em>"He was a wise man who invented Beer!"     -unknown</em></h4>
         </div>
         <div className="searchform">
           <form className="pure-form" onSubmit={this.handleSubmit}>

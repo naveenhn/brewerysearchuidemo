@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ff51d81b37cdbc868fab",
-    "url": "/brewerysearchuidemo/static/css/main.883ba4af.chunk.css"
+    "revision": "174c0f7c533bf643b727",
+    "url": "/brewerysearchuidemo/static/css/main.300615dd.chunk.css"
   },
   {
-    "revision": "ff51d81b37cdbc868fab",
-    "url": "/brewerysearchuidemo/static/js/main.ff51d81b.chunk.js"
+    "revision": "174c0f7c533bf643b727",
+    "url": "/brewerysearchuidemo/static/js/main.174c0f7c.chunk.js"
   },
   {
     "revision": "1d714d2257181748a59b",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/brewerysearchuidemo/static/media/retrobeer.cf172707.png"
   },
   {
-    "revision": "e3e2c52d949cd9e7d2541d78e22610ad",
+    "revision": "258d817a6f000ff175f3e072653cf7e0",
     "url": "/brewerysearchuidemo/index.html"
   }
 ];
