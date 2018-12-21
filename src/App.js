@@ -33,7 +33,7 @@ class Sidebar extends Component {
       <div className="sidebar pure-u-1 pure-u-md-1-4">
         <div className="header">
 
-          <img alt="Breweries" className="pure-img-responsive" src={logo} />
+          <img alt="Breweries" className="pure-img pure-img-responsive" src={logo} />
           <h2 className="brand-tagline">Brewery Search Demo </h2>
 
         </div>
@@ -128,7 +128,7 @@ class Content extends Component {
           <h4><em>"He was a wise man who invented Beer!"     -unknown</em></h4>
         </div>
         <div className="searchform">
-          <form className="pure-form" onSubmit={this.handleSubmit}>
+          <form className="pure-form pure-form-aligned" onSubmit={this.handleSubmit}>
             <fieldset>
               <input type="text" className="pure-input-rounded" placeholder="search.." onChange={this.handleInputChange} /> &nbsp;
                 <button type="button" className="pure-button pure-button-primary" onClick={this.handleSearch}>Search</button>
@@ -165,7 +165,7 @@ class Content extends Component {
                     <td>{city}</td>
                     <td>{state}</td>
                     <td>{phone}</td>
-                    <td>{websiteUrl}</td>
+                    <td><a href={websiteUrl} target="_blank" rel="noopener noreferrer">{websiteUrl}</a></td>
                   </tr>
 
 
